@@ -1,21 +1,30 @@
+.parent{
+    height: 100vh;
+    width: 100%;
+    display: table;
+}
+.child{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
 body {
   font-family: "acta-poster-swashes",sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 50px;
-  }
-
+}
 h1 {
   display: inline;
   position: relative;
   color: rgba(0,0,255,0.5);
   letter-spacing: -3px;
 }
-
-/*
 h1:after {
   content: "Are you having seizures yet?";
-  position: absolute; top: 5px; left: 10px; 
+  position: absolute; 
+  top: 3px; 
+  left: -3px; 
   color: rgba(255,0,0,0.5);
 }
-*/
+
